@@ -1,0 +1,83 @@
+.Container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0%;
+
+}
+
+mat-card * {
+    font-size: 23px;
+    overflow:hidden;
+
+}
+
+
+.Humidity {
+    display: inline-block;
+    margin-left: 60.5%;
+}
+
+.Precipitation {
+    display: inline-block;
+    margin-left: 60%;
+}
+
+.Precipitation {
+    display: inline-block;
+    margin-left: 54.5%;
+}
+
+.Wind {
+    display: inline-block;
+    margin-left: 55.3%;
+}
+
+.Pressure {
+    display: inline-block;
+    margin-left: 55.21%;
+}
+
+.FeelsLike {
+    display: inline-block;
+    margin-left: 55.4%;
+}
+
+.Visibility {
+    display: inline-block;
+    margin-left: 54%;
+}
+
+.LeftDiv,
+.RightDiv {
+    flex: auto;
+    height: 100%;
+    text-align: center;
+    justify-self: center;
+    text-align: center;
+
+}
+
+mat-card {
+    flex: auto;
+    height: max-content;
+    justify-self: center;
+    text-align: center;
+    background: #afdcf5;
+}
+.centerDiv {
+    flex: auto;
+    height: max-content;
+    justify-self: center;
+    text-align: center;
+}
+
+
+.Forcast {
+    display: flex;
+    justify-content: center;
+    background: rgb(172, 22, 22);
+
+}

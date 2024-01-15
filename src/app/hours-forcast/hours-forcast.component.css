@@ -1,0 +1,33 @@
+.SevenDaysForcasts {
+  display: flex;
+  text-align: space;
+  align-items: center;
+  justify-content: center;
+}
+.prev {
+  margin-right: -40px;
+  z-index: 3;
+  width: inherit;
+}
+.next {
+  margin-left: -40px;
+  z-index: 3;
+}
+
+.WeatherCard {
+  display: inline-block;
+  width: 100vw;
+  margin: 2.5px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+mat-card {
+  background: #afdcf5;
+}
+
+svg {
+  font-size: 25px;
+}

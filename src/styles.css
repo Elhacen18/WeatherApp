@@ -1,0 +1,17 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+h2,
+p {
+  padding: 8px;
+}
+
+.mr-8 {
+  margin-right: 6px;
+}

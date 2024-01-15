@@ -1,0 +1,15 @@
+html,
+body,
+app-root,
+.app-frame {
+  overflow: auto;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  /* background: #afdcf5; */
+}
+.theme {
+  margin-top: .6%;
+   display: flex; 
+justify-content: center;
+}

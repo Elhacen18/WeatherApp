@@ -1,0 +1,22 @@
+<mat-toolbar>
+    <div class="Container">
+        <div class="AddButton">
+            <button mat-raised-button color="primary" (click)="getLocation()">
+        Use my location
+      </button>
+        </div>
+        <div class="SearchField">
+            <form class="SearchField" id="ngForm" [formGroup]="weatherSearchForm" (ngSubmit)="DoSearch(weatherSearchForm.value)">
+                <mat-form-field appearance="standard">
+                    <input ngx-google-places-autocomplete [options]="options" matInput placeholder="Search for a city" formControlName="location" (onAddressChange)="AddressChange($event)" />
+                </mat-form-field>
+            </form>
+        </div>
+        <div class="InfoButton">
+            <button mat-raised-button form="ngForm" color="primary" type="submit" class="form-control">
+        Search
+      </button>
+        </div>
+    </div>
+</mat-toolbar>
+<mat-progress-bar mode="indeterminate" *ngIf="Complete"></mat-progress-bar>

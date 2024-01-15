@@ -1,0 +1,15 @@
+<div class="mat-typography app-frame mat-app-background">
+  <app-nav-bar></app-nav-bar>
+  <app-current-weather></app-current-weather>
+  <app-seven-days-forecast></app-seven-days-forecast>
+
+  <!-- <app-hours-forcast></app-hours-forcast> -->
+  <div class="theme">
+    <mat-icon>brightness_5</mat-icon>
+    <mat-slide-toggle
+      color="primary"
+      [formControl]="toggleControl"
+    >Dark theme</mat-slide-toggle>
+    <mat-icon>bedtime</mat-icon>
+  </div>
+</div>
