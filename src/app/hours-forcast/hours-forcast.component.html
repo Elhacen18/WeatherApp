@@ -9,7 +9,7 @@
     <mat-card class="WeatherCard"  *ngFor="let hours of  HourlyForcasr; let index = index; let last = last">
         <mat-card-content>
             <mat-card-title>{{ hours.dt * 1000 | date:'shortTime'}}</mat-card-title>
-            <mat-card-subtitle>{{ hours.temp }} &#8457;</mat-card-subtitle>
+            <mat-card-subtitle>{{ hours.temp }} &deg;</mat-card-subtitle>
             <div>
                 <span>
           <img            src="http://openweathermap.org/img/wn/{{hours.weather[0].icon}}.png"  alt=""

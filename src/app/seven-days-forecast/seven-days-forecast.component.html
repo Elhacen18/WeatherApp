@@ -9,7 +9,7 @@
     <mat-card class="WeatherCard" *ngFor="let forcast of Forcast">
         <mat-card-content>
             <mat-card-title>{{ forcast.dt * 1000 | date: "MMM d" }}</mat-card-title>
-            <mat-card-subtitle>{{ forcast.temp.max }} &#8457;</mat-card-subtitle>
+            <mat-card-subtitle>{{ forcast.temp.max }} &deg;</mat-card-subtitle>
             <div>
                 <span><img src="http://openweathermap.org/img/wn/{{forcast.weather[0].icon}}.png" alt=""/></span>
             </div>
